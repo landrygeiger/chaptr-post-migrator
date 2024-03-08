@@ -1,5 +1,20 @@
+import { Box, Typography } from "@mui/material";
+import RichTextEditor from "./components/RichTextEditor/RichTextEditor";
+import { useState } from "react";
+
 function App() {
-  return <h1>Chaptr Post Migrator</h1>;
+  const [content, setContent] = useState("");
+
+  return (
+    <>
+      <Typography variant="h5" component="h1">
+        Chaptr Post Migrator
+      </Typography>
+      <Box sx={{ maxWidth: "800px" }}>
+        <RichTextEditor content={content} setContent={setContent} />
+      </Box>
+    </>
+  );
 }
 
 export default App;

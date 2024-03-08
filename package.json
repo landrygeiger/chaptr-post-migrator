@@ -10,6 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.11",
+    "@mui/material": "^5.15.11",
+    "@tiptap/extension-link": "^2.1.13",
+    "@tiptap/extension-text-align": "^2.1.13",
+    "@tiptap/pm": "^2.2.4",
+    "@tiptap/react": "^2.2.4",
+    "@tiptap/starter-kit": "^2.2.4",
     "fp-ts": "^2.16.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
