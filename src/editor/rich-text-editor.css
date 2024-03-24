@@ -1,0 +1,56 @@
+.ProseMirror {
+  padding: 8.5px 14px;
+  outline: 1px solid rgb(100, 100, 100, 0.2);
+  min-height: 333px;
+}
+
+.tiptap {
+  h1 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  p,
+  ul,
+  ol {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0;
+  }
+
+  a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+}
